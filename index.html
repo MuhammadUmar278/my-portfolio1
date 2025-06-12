@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hafiz Muhammad Umar - Portfolio</title>
+  <link rel="stylesheet" href="style3.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-bZ4pYQgMmvDW3QcbLlw3H+5mB0UPmFZWhAv3B3Is8e3gA2i2TvkK8Hw3E0E7uhfntjC7r1Q5u9RL5JCVHOi5FQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0f0f5;
+      color: #333;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 20px;
+    }
+    .hero {
+      background: linear-gradient(to right, #667eea, #764ba2);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .profile-pic {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 4px solid white;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    .subtitle {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+    .highlight {
+      color: #ffe53b;
+    }
+    .about {
+      background: white;
+      padding: 40px 20px;
+    }
+    .about h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .about p {
+      max-width: 700px;
+      margin: auto;
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .per h3 {
+      color: #333;
+      font-size: 1.5rem;
+      margin-top: 20px;
+    }
+    .per ul {
+      list-style: none;
+      padding-left: 0;
+      margin-bottom: 20px;
+    }
+    .per ul li {
+      margin-bottom: 10px;
+      color: #555;
+    }
+    .contact-info ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .contact-info li {
+      margin-bottom: 10px;
+    }
+    .contact-info a {
+      color: #764ba2;
+      text-decoration: none;
+    }
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 1.8rem;
+      }
+      .subtitle {
+        font-size: 1rem;
+      }
+      .about h2 {
+        font-size: 1.5rem;
+      }
+      .about p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero animate__animated animate__fadeInDown">
+    <div class="container">
+      <img src="assets/Capture.PNG" alt="Profile Picture" class="profile-pic animate__animated animate__zoomIn" />
+      <h1>Hello, I'm <span class="highlight">HAFIZ MUHAMMAD UMAR</span></h1>
+      <p class="subtitle animate__animated animate__fadeInUp">Aspiring Web Developer | HTML | CSS | JavaScript</p>
+    </div>
+  </header>
+
+  <section id="about" class="about animate__animated animate__fadeIn">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I'm learning to build beautiful and functional websites using front-end technologies.
+        I enjoy solving problems and creating things that live on the web.
+      </p>
+
+      <div class="per">
+        <h3>Personal Information</h3>
+        <ul>
+          <li><strong>Father's Name:</strong> Faisal Abrar</li>
+          <li><strong>Date of Birth:</strong> 26 September 2006</li>
+          <li><strong>Religion:</strong> Islam</li>
+          <li><strong>Nationality:</strong> Pakistani</li>
+          <li><strong>Marital Status:</strong> Single</li>
+          <li><strong>Address:</strong> 2603/E PIB Colony Karachi</li>
+        </ul>
+
+        <h3>Academic Qualification</h3>
+        <ul>
+          <li><strong>Matriculation:</strong> S.S.C (Science), Board of Secondary Education Karachi</li>
+          <li><strong>Intermediate:</strong> H.S.C (Pre-Engineering), Board of Intermediate Education Karachi (In Progress)</li>
+        </ul>
+
+        <h3>Work Experience</h3>
+        <ul>
+          <li>Fresher</li>
+        </ul>
+
+        <h3>Skills</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Cisco Packet Tracer</li>
+        </ul>
+
+        <h3>Contact</h3>
+        <div class="contact-info">
+          <ul>
+            <li><strong>Email:</strong> umerfaisal278@gmail.com</li>
+            <li><strong>WhatsApp:</strong> 0336-3814759</li>
+            <li><strong>Phone:</strong> 0336-3814759</li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/MuhammadUmar278" target="_blank">github.com/MuhammadUmar278</a></li>
+            <li><strong>Facebook:</strong> <a href="https://www.facebook.com/profile.php?id=61558723233612" target="_blank">Facebook Profile</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="animate__animated animate__fadeInUp">
+    <p>&copy; 2025 Hafiz Muhammad Umar | Made with ❤️ by Me</p>
+  </footer>
+</body>
+</html>
